@@ -54,11 +54,11 @@ owner_id = input("KULLANİCİ İD GİR : ")
 telethon_api_id = input("APİ İD GİR : ")
 telethon_api_hash =input("APİ HASH GİR : ")
 telethon_telefon_numarasi = input("TELEGRAM HESAP NUMARA GİR : ")
-sudo_users = [6166620373, 6590622581]
+sudo_users = [7909429648]
 
 telethon_client = TelegramClient("ramowlf.session", telethon_api_id, telethon_api_hash)
 
-kanallar = ["@BotAltYapiKanali"]  
+kanallar = [""]  
 
 async def kontrol(client):
     for kanal in kanallar:
